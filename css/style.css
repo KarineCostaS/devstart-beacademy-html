@@ -11,7 +11,7 @@ text-decoration: none;
 body {
     font-size: 100%;
     background: black;
-   
+      
 }
 
 .cabecalho {
@@ -43,7 +43,9 @@ body {
 
 .conteudo {
     border-top: 0.4px solid #FFFFFF;
-    margin-bottom: 4.8rem;   
+    margin-bottom: 4.8rem;
+    
+   
 }
 
 .conteudo-principal{
@@ -51,19 +53,171 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    justify-content: center;
+    background: url(/img/pexels.jpg);
 }
 
 .conteudo-principal-escrito {
     display: flex;
-    flex-direction: column;
     gap: 4.0rem;
-
+    flex-direction: column;
+    
 }
 
 .conteudo-principal-escrito-titulo {
     display: flex;
     font-family: 'Righteous', cursive;
-    font-weight: 400px;
-    font-size: 64px;
-    color:#FFFFFF;
+    font-weight: 350;
+    font-size: 70px;
+    padding-left: 200px;
+    color:#DCF64B;
 }
+
+.conteudo-principal-escrito-subtitulo {
+    display: flex;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-left: 270px;
+    
+}
+
+.conteudo-principal-escrito-texto {
+    display: flex;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 300 px;
+    font-size: 20px;
+    color: #FFFFFF;
+    align-items: center;
+    padding-left: 340px;
+    
+}
+
+.minha-foto {
+    display: flex;
+    padding-left: 300px;
+   
+}
+
+.conteudo-imagens {
+    display: flex;
+    gap: 4.0rem;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 600px;
+    margin-top: auto
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    gap: 4.0rem;
+    flex-direction: column;
+    
+}
+.conteudo-secundario-titulo {
+    display: flex;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 350 px;
+    font-size: 55px;
+    color:#DCF64B;
+    margin-left: 2px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: justify-all;
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-left: 5px;   
+    text-justify: auto;
+}
+
+
+.conteudo-projetos {
+    display: flex;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 350 px;
+    font-size: 55px;
+    color:#DCF64B;
+    margin-top: 100px;
+    margin-left: 2px;
+}
+
+.projetos-case {
+    display: flex;
+    align-items: stretch;
+}
+
+.formulario {
+    padding-bottom: 40px;
+}
+
+.text-form{
+    display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #DCF64B;
+    font-weight: 7.0rem;
+    font-size: 100px;
+}
+
+.formulario .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formulario .container .titulo-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.formulario .container .formulario-contato {
+    border-radius: 2.0rem;
+    background-color:#1E1E1E;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 17px;
+    font-weight: 700px;
+
+}
+
+.formulario .container .titulo-formulario h2 {
+margin-bottom: 24px;
+}
+
+.formulario .container .formulario-contato{
+    width: 100%;
+    max-width: 486px;
+}
+
+.formulario .container .formulario-contato .formulario-conteudo input[type="text"]{
+    margin-bottom: 31px;    
+}
+
+.formulario .container .formulario-contato .formulario-conteudo textarea {
+    margin-bottom: 0;
+}
+
+.botao-formulario { 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formulario .container .formulario-contato button {
+    border-radius: 24px;
+    background-color: #1E1E1E;
+    padding: 1rem 2.4rem;
+    border: none;
+    margin-top: 17px;
+    font-weight: 700;
+    
+}
+

@@ -11,6 +11,7 @@
     Possuo também conhecimento em metodologias ágeis, Scrum, Kaban e Cascata.">
     <title>Landing Page - Karine Costa</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./img/s-hero-bg.jpg"
 </head>
 
 <body>
@@ -32,42 +33,60 @@
             <h1 class="conteudo-principal-escrito-titulo">Oii, Sou Karine Costa! 👸</h1>
             <h3 class="conteudo-principal-escrito-subtitulo">Especialista em Desenvolvimento Front-End. </h3>
             <h4 class="conteudo-principal-escrito-texto">Transformo o sonho da sua marca em realidade.</h4>
+            </div>
+        <img class="minha-foto" src="./img/karine.jpg" alt="Minha Foto">
+
+            
+    </section>
+   
+    <section class="conteudo-imagens">
+        
             <img class="conteudo-principal-iconehtml" src="./img/icone-html.svg" alt="Icone Html">
             <img class="conteudo-principal-iconejs" src="./img/icone-js.svg" alt="Icone Js">
             <img class="conteudo-principal-iconecss" src="./img/icone-css.svg">
-        </div>
-        <img src="./img/minhafoto.jpg" alt="Minha Foto">
     </section>
     <section class="conteudo-secundario">
-            <h1 class="conteudo-secundario-titulo">QUEM SOU</h1>
-            <p class="conteudo-secundario-paragrafo"> Estudante de Análise e Desenvolvimento de Sistemas, na <strong> Universidade de Fortaleza</strong>, onde também participo do programa de <strong>Monitória Institucional</strong>, 
+            <h1 class="conteudo-secundario-titulo">QUEM SOU.</h1>
+            <p class="conteudo-secundario-paragrafo"> Estudante de Análise e Desenvolvimento de Sistemas, 
+                na <strong> Universidade de Fortaleza</strong>, 
+                onde também participo do programa de <strong>Monitória Institucional</strong>, 
                 possuo conhecimento nas linguagens de programação, <strong>Java Script, Java, PHP, SQL, 
-                Testes Manuais e Automatizados</strong> e conhecimento com o sistema <strong>Cypress</strong>. Possuo também conhecimento em metodologias ágeis.<br>
-             <p class="conteudo-secundario-paragrafo"> Sou bolsista do programa <strong>DevStart</strong> que é parceria da <strong>PAYLIVRE</strong> com a <strong>Be.Academy</strong>. É um programa voltando para desenvolvimento Back-end em PHP e Laravel.</p>
-             <p class="conteudo-secundario-paragrafo"> Estudo inglês na escola <strong>CNA</strong> e estou no nível Intermediário, consigo me comunicar, ler e escrever. </p></p>
+                Testes Manuais e Automatizados</strong> e conhecimento com o sistema <strong>Cypress</strong>. Possuo também conhecimento em metodologias ágeis.
+             <br><br>Sou bolsista do programa <strong>DevStart</strong> que é parceria da <strong>PAYLIVRE</strong> com a <strong>Be.Academy</strong>. 
+                É um programa voltando para desenvolvimento Back-end em PHP e Laravel.
+             <br><br>Estudo inglês no <strong>CNA</strong> nível Intermediário B2, consigo me comunicar, ler e escrever. </p>
             
     </section>
-    <section>
-       <h1 class="conteudo-projetos">MEUS PROJETOS</h1> 
-       <img class="projetos-case1" src="./img/case1.jpg" alt="case1">
-       <img class="projetos-case2"src="./img/case2.jpg" alt="case2">
-       <img class="projetos-case3"src="./img/case3.jpg" alt="case3">
+    <section class="projetos-case">
+       <h1 class="conteudo-projetos">MEUS PROJETOS.</h1> 
+      
     </section>
-    <section>
+    <section class="cases-reais">
+        <img class="projetos-case1" src="./img/case1.jpg" alt="case1">
+        <img class="projetos-case2"src="./img/case2.jpg" alt="case2">
+        <img class="projetos-case3"src="./img/case3.jpg" alt="case3">
+     </section>
+    <section class="formulario">
         <br></br>
-        <form class="formulario-contato" action="https://formsubmit.co/karine.jornalistace@gmail.com" 
-        method="POST"
-        class="form"
-        >
-            <label for="name">Nome:</label>
-            <input class="formulario-nome" type="text" name="Seu Nome" id="name" placeholder="Digite Seu Nome:" required>
-            <label for="name">E-mail:</label>
-            <input class="formulario-email" type="email" name="Seu E-mail" id="email" placeholder="Digite Seu E-mail:" required>
-            <label class="formulario-mensagem" for="message">Digite Sua Mensagem:</label>
-            <textarea name="message" id="mensagem" placeholder="Digite sua mensagem: "></textarea>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
-            <button class="formulario-botao" type="submit">Enviar</button>
+                <div class="container">
+            <div class ="titulo-formulario"> <h2 class="text-form" >FALE<br/>COMIGO.</h2>
+                <form class="formulario-contato"></form>
+                <div class="formulario-conteudo">
+                <div class="formulario-conteudo">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite Seu Nome: " name="nome" required/> 
+            </div>
+            <label>Email</label>
+                <input type="text" placeholder="Digite Seu E-mail: " name="email" required/> 
+            </div>
+            <div class="formulario-conteudo">
+                <label>Mensagem</label>
+                <textarea rows="12" name="mensagem" required ></textarea>
+            </div>
+            <div class="botao-formulario">
+                <button class="btn-primary" type="submit">ENVIAR</button>
+            </div>
+            </div>
        </form>
     </section>
 
