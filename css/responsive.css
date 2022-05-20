@@ -1,0 +1,109 @@
+@media (max-width: 1200px) {
+
+
+    .cabecalho-imagem {
+      right: 0;
+      bottom: 0;
+      max-width: 50%;
+      margin-bottom: 20px;
+
+    }
+
+    
+    .cabecalho-menu {
+        justify-content:center;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px 100px 20px;
+    }
+
+    .minha-foto {
+        display: none;
+    }
+
+
+
+    .contato{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+    }
+
+    .fale-comigo {
+        padding-right: 50px;
+    }
+
+    .form {
+      margin: 40px auto;
+    }
+
+}
+
+@media(max-width:950px) {
+    html {
+        font-size: 60%;
+    }
+
+    header {
+        padding: 15px 20px;
+        opacity: 0.99;
+    }
+
+    .cabecalho {
+        display: none;
+    }
+
+    @media(max-width:850px) {
+
+        .cabecalho-menu {
+            max-width: 70%;
+        }
+        .conteudo-secundario-titulo h2 {
+            padding-left: 90px;
+        }
+        .conteudo-secundario-paragrafo p{
+            width: 100%;
+            padding-left: 90px;
+        }
+    }
+    @media(max-width:600px) {
+        html {
+            font-size: 60%;
+        }
+    
+        .conteudo-secundario-paragrafo  p{
+            width: 100%;
+            padding-left: 20px;
+        }
+        .conteudo-secundario-titulo h2{
+            padding-left: 20px;
+        }
+    
+    
+        footer {
+            max-width: 120px;
+        }
+    }
+    
+    @media(max-width: 470px) {
+        html{
+            width: 100%;
+        }
+        .conteudo-secundario-titulo h2 {
+            padding-left: 20px;
+        }
+        .conteudo-secundario-paragrafo {
+            padding: 20px 0px;
+        }
+    
+    }
+    
+    @media(max-width: 420px) {  
+    
+    }
+    
+}

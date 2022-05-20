@@ -54,8 +54,12 @@ body {
     align-items: center;
     justify-content: space-around;
     justify-content: center;
-    background: url(/img/pexels.jpg);
+    background-image: url(/img/pexels.jpg);
+    
+       
 }
+
+
 
 .conteudo-principal-escrito {
     display: flex;
@@ -92,7 +96,7 @@ body {
     color: #FFFFFF;
     align-items: center;
     padding-left: 340px;
-    border-color: #171717;
+    border-color: #171717
 }
 
 .minha-foto {
