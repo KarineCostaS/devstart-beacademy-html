@@ -75,11 +75,12 @@ body {
 
 .conteudo-principal-escrito-subtitulo {
     display: flex;
-    font-family: 'Radio Canada', sans-serif;
-    font-weight: 300;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300px;
     font-size: 30px;
     color: #FFFFFF;
     padding-left: 270px;
+    border-color: #171717;
     
 }
 
@@ -91,7 +92,7 @@ body {
     color: #FFFFFF;
     align-items: center;
     padding-left: 340px;
-    
+    border-color: #171717;
 }
 
 .minha-foto {
@@ -153,6 +154,14 @@ body {
     align-items: stretch;
 }
 
+.fale-comigo {
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-around;
+
+}
+
+
 .formulario {
     padding-bottom: 40px;
 }
@@ -174,7 +183,7 @@ body {
 .formulario .container .titulo-formulario {
     display: flex;
     justify-content: space-between;
-    align-items: ;
+    align-items: center;
 }
 
 
@@ -235,6 +244,7 @@ margin-bottom: 24px;
     padding-top: 2.7rem;
     display: flex;
     flex-direction: column;
+    
 }
 
 .contato h2{
@@ -316,6 +326,12 @@ button {
 
 .rodape {
     background-color: #1E1E1E;
+}
+
+.rodape-itens {
+    display: flex;
+    align-items: stretch;
+    justify-content: center
 }
 
 .rodape-texto {
