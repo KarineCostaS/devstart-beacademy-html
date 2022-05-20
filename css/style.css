@@ -174,7 +174,7 @@ body {
 .formulario .container .titulo-formulario {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: ;
 }
 
 
@@ -221,3 +221,110 @@ margin-bottom: 24px;
     
 }
 
+.contato{
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 70px 60px 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    align-items: flex-start;
+}
+
+.box-contato{
+    margin-left: 17rem;
+    padding-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2{
+    font-size: 50px;
+    color: #DCF64B;
+    margin: 0;
+    line-height: 3.6rem;
+    padding-top: 1rem;
+
+
+}
+
+.link-contato{
+    display: flex;
+    gap: 30px;
+    padding-left: 1rem;
+}
+
+.link-contato img{
+    width: 25px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 390px;
+    width: 390px;
+    padding: 20px;
+    margin-right: 100px;
+    
+
+}
+
+form input{
+    color: #DCF64B;
+    display: block;
+    width: 365px;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    background-color: #343434;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+form textarea {
+    background-color: #343434;
+    width: 365px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px 0px 0px 10px;
+    resize: none;
+    color: #DCF64B;
+    margin-bottom: 30px;
+}
+
+.m-deixar {
+    font-family: 'Radio Canada', sans-serif;
+    
+
+}
+
+button {
+    display: flex;
+    width: 215px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #DCF64B;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #1E1E1E;
+}
+
+.rodape-texto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    
+}
